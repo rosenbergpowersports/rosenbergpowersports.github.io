@@ -1,0 +1,394 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Eurostilebq opentype bigfontsite', sans-serif;
+  color: #000;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Eurostilebq opentype bigfontsite', sans-serif;
+  color: #fff;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.top-logo {
+  width: 400px;
+  margin: 50px;
+}
+
+.top-logos-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.h1-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #403f41;
+}
+
+.logo-outer-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo-outer-div.motorcycles {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/motorcycles-detail.svg');
+  background-position: 0% 0%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.logo-outer-div.powersports {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-image: url('../images/powersports-detail-flipped.svg');
+  background-position: 100% 0%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.sub-heading {
+  color: #adadad;
+}
+
+.section-logo {
+  height: 100px;
+}
+
+.brand-section-white {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.larger-white-h1-size {
+  color: #fff;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.feature-paragraph {
+  max-width: 600px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.feature-paragraph.white {
+  color: #fff;
+}
+
+.feature-paragraph.white.centered {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.big-heading {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.big-heading.black {
+  color: #000;
+}
+
+.section-button {
+  margin-top: 40px;
+  background-color: #333;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  font-family: 'Eurostilebq opentype bigfontsite', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.section-button:hover {
+  opacity: 0.7;
+}
+
+.brand-section-grey {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.brand-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.brand-columns-outer-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 800px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.brand-colum-store-logo {
+  width: 260px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.heading {
+  color: #000;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.main-heading {
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.brand-column-brand-logo {
+  height: 75px;
+  max-width: 200px;
+}
+
+.brand-column-brand-logo.margin {
+  margin-top: 25px;
+}
+
+.brand-column-brand-logo.margin.toro {
+  margin-top: 10px;
+}
+
+.black {
+  color: #000;
+}
+
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #000;
+}
+
+.footer-text {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.contact-link-button {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  font-family: 'Eurostilebq opentype bigfontsite', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contact-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #333;
+}
+
+.contact-link {
+  color: #fff;
+}
+
+.contact-container {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 991px) {
+  .logo-outer-div.motorcycles {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .logo-outer-div.powersports {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-logos-section {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .logo-outer-div.motorcycles {
+    width: 100%;
+    background-image: none;
+  }
+  .logo-outer-div.powersports {
+    width: 100%;
+    background-image: none;
+  }
+  .brand-columns-outer-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sub-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .big-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .main-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .heading-2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@font-face {
+  font-family: 'Eurostilebq opentype bigfontsite';
+  src: url('../fonts/eurostilebq-boldextended-opentype_bigfontsite.com.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
